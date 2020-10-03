@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+body {
+    font-family: 'Poppins';
+}
+
+.break {
+
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    width: 100%;
+
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+#section1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    background-image: url("/assets/background2.png");
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: #F05136;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+    padding: 7px;
+    margin: 10px;
+}
+
+
+
+#section2 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    justify-content: center;
+    align-content: center;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#portfolio div article {
+    background: white;
+    color: black;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#portfolio div article p {
+    padding: 0 5px;
+}
+
+#section4 {
+    background-image: url("/assets/background.png");
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#section5 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    justify-content: center;
+    align-content: center;
+}
+
+#sec5-image {
+    width: 300px;
+    height: 300px;
+}
+
+div article ul {
+    list-style: none;
+}
+
+div article ul li {
+    margin: 0 10px;
+}
+
+#section1 input {
+    background-color: red;
+    border-color: rgb(143, 143, 2);
+}
+
+#section1 input:last-child {
+    background-color: rgb(247, 59, 91);
+    border-color: blue;
+}
+
+#learn-more {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 20%;
+}
+
+#learn-more:hover {
+    color: purple;
+}
